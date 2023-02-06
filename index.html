@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Photo Gallery & Image Lightbox Example</title>
+    <link href="https://www.cssscript.com/demo/sticky.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      h1 { margin-top: 70px; text-align: center; }
+      #carbonads a{color:#fff;text-decoration:none}#carbonads a:hover{color:#fff}
+    </style>
+</head>
+<body>
+  <h1>Once you stop looking for what you want, you find what you need</h1>
+  <audio id="musicplayer" autoplay loop>
+    <source src="imgs/audio.mp3" />
+  </audio>
+<section class="section gallery">
+  <div class="container">
+    <h1 class="gallery-heading">This is our journey</h1>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="imgs/1.JPG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Anh phải đi cắt tóc để về gọi cho em lần đầu.</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="imgs/2.PNG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">This is our first video call I think.</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="imgs/3.JPG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Đây là bức tranh mosiac anh làm tặng em mà chưa cầm về được.</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="imgs/4.JPG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Thi thoảng anh sẽ cho vài cái ảnh selfie của anh vào. Phần lớn anh selfie để chụp cho em xem mà ^^</div>
+      </div>
+      <div class="gallery-item">
+        <img src="imgs/5.JPG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Đây là 1 góc hành lang quen thuộc của anh ở trường khi gọi điện thoại cho em đấy.</div>
+      </div>
+      <div class="gallery-item">
+        <img src="imgs/6.JPG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Bức ảnh đáng yêu của em mà em thích nhất thì phải.</div>
+      </div>
+      <div class="gallery-item">
+        <img src="imgs/7.JPG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Tấm này cũng xinh, anh thích lắm mái tóc bồng bềnh này.</div>
+      </div>
+      <div class="gallery-item">
+        <img src="imgs/8.JPG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Tấm này thì em điệu lắm, xinh như búp bê vậy á.</div>
+      </div>
+      <div class="gallery-item">
+        <img src="imgs/9.JPG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Anh cũng thích tấm này vì em hiền lắm hehe.</div>
+      </div>
+      <div class="gallery-item">
+        <img src="imgs/10.JPG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Lúc này mặt còn hơi tròn tròn nhưng anh biết sau này em có mập lên thì trông như thế nào haha.</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="imgs/11.jpg" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Cái này cười toả nắng luôn =))</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="imgs/12.jpg" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Hôm này là anh đón năm mới ở Madrid và em đặt giờ dậy đón năm mới với anh đó.</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="imgs/13.JPG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Hở vai hững hờ ^^</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="imgs/14.JPG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Chúng mình đón năm mới pháo hoa với nhau tết âm 2023 nè.</div>
+      </div>
+      <div class="gallery-item">
+        <img src="imgs/15.JPG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Người yêu anh lâu rồi ko đắp mask nên khoe anh :P </div>
+      </div>
+      <div class="gallery-item">
+        <img src="imgs/16.jpg" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Lúc này là anh khoe em cái hình nền điện thoại anh mới thay.</div>
+      </div>
+      <div class="gallery-item">
+        <img src="imgs/17.png" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Hôm đấy là em đi uống với các bạn hơi say say về, rồi nghe anh kể chuyện nyc, hôm ý anh ko vui nhưng mà em vẫn rất tình cảm nghe và an ủi anh :'(</div>
+      </div>
+      <div class="gallery-item">
+        <img src="imgs/18.png" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Chả biết sao anh lại thêm cái ảnh này, hôm ý trời lạnh phải có xe ủi tuyết đi, anh đi bộ lên trường và ước gì có thể nắm tay em đi.</div>
+      </div>
+      <div class="gallery-item">
+        <img src="imgs/19.PNG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Chà hôm ý video call đang nói về outfit đi tiệc, chiếc váy này anh cũng khá thích đó ^^</div>
+      </div>
+      <div class="gallery-item">
+        <img src="imgs/20.PNG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Đây là hình nền đth của anh, ko biết bao giờ mới thay vì cái hình này quá xuất sắc.</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="imgs/21.png" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Đây là hôm anh đi chơi sau khi mới trải qua mấy vụ đánh nhau với covid.</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="imgs/22.PNG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Người yêu lúc này đang làm bài thì phải.</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="imgs/23.PNG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Anh gọi cho người yêu anh khi đi Paris xem tháp và hẹn sẽ quay lại đây với em đó.</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="imgs/24.png" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Chắc anh là người duy nhất trên này đi 1 mình, cũng nhớ em nhưng biết sao dc, mình yêu xa mà.</div>
+      </div>
+      <div class="gallery-item">
+        <img src="imgs/25.PNG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Lúc này em đang ở quán với các bạn anh thì đáp máy bay đi về Phần Lan làm nốt thực tập.</div>
+      </div>
+      <div class="gallery-item">
+        <img src="imgs/26.PNG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Giờ các stt hay post của anh sẽ chỉ có em là number 1 fan thui hehe.</div>
+      </div>
+      <div class="gallery-item">
+        <img src="imgs/27.PNG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Thấy anh người yêu là cười tít cả mắt :v </div>
+      </div>
+      <div class="gallery-item">
+        <img src="imgs/28.PNG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Tấm này cả 2 cùng cười xinh nè hehe</div>
+      </div>
+      <div class="gallery-item">
+        <img src="imgs/29.PNG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Nghe bảo có người soi người yêu nên em bé của anh đăng hình dằn mặt haha</div>
+      </div>
+      <div class="gallery-item">
+        <img src="imgs/30.PNG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Anh chả nhớ ảnh này như nào nhưng anh thấy đẹp nên cứ cho vào thui.</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="imgs/31.PNG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Anh béo in the cartoon style</div>
+      </div>
+      <div class="gallery-item">
+        <img src="imgs/32.PNG" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Em công nương được toonify theo style công chúa disney.</div>
+      </div>
+      <!-- <div class="gallery-item">
+        <img src="imgs/33.png" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Anh phải đi cắt tóc để về gọi cho em lần đầu.</div>
+      </div>
+      <div class="gallery-item">
+        <img src="imgs/34.png" alt="Lorem Picsum photo 1">
+        <div class="gallery-item-text">Anh phải đi cắt tóc để về gọi cho em lần đầu.</div>
+      </div> -->
+      
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox preload">
+  <div class="lb-content">
+    <!-- You may put a loader gif or svg here for starters -->
+    <img class="lb-img" src="/img/loader.svg" alt="lightbox image">
+    <div class="lb-caption">
+      <a class="lb-url" href="" rel="noopener" target="_blank"></a>
+      <div class="lb-text"></div>
+    </div>
+    <a href="#" class="close">&times;</a>
+  </div>
+</div>
+<script src="app.js"></script>
+
+</body>
+</html>
